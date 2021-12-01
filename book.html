@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Science Tutors</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <div class="logo-box">
+                <img src="https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="water image" />
+            </div>
+            <nav>
+                <ul>
+                    <li><a target="_self" href="index.html">Home</a></li>
+                    <li><a target="_self" href="">Tutors</a></li>
+                    <li><a target="_self" href="book.html">Book a Session</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="banner-box">
+                <img src="https://byui-cit.github.io/wdd130/resources/images/river-wide2.JPG" alt="a river" />
+            </div>
+            <p class="book-session-title">Book a session with any tutor you like</p>
+
+            <div id="form-container">
+                <form class="book-form" action="book.html">
+                    <label for="subject">Subject:
+                   <select name="subject" id="subject">
+                       <option value="chemistry">Chemistry</option>
+                       <option value="physics">Physics</option>
+                       <option value="biology">Biology</option>
+                   </select>
+                </label>
+                    <label for="date">Date & time:
+                    <input id="date" type="datetime-local">
+                </label>
+                    <label for="tutor">Tutor:
+                        <select name="online" id="tutor">
+                            <option value="julia">Julia</option>
+                            <option value="peter">Peter</option>
+                            
+                        </select>
+                </label>
+                    <label for="online">Online / In Person:
+                    <select name="online" id="online">
+                        <option value="online">Online</option>
+                        <option value="in-person">In Person</option>
+                        
+                    </select>
+                </label>
+                    <div id="book-button-container">
+                        <button type="submit">Book Now</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2021 Science Tutors - Tatenda Nyamuda - WDD 130</p>
+            <div class="social">
+                <a href="https://www.facebook.com/"> <img src="https://byui-cit.github.io/wdd130/images/icons/color/facebook.png" alt="facebook-logo" /></a>
+                <a href="https://www.instagram.com/"><img src="https://byui-cit.github.io/wdd130/images/icons/color/youtube.png" alt="youtube-logo" /></a>
+                <a href="https://twitter.com/"> <img src="https://byui-cit.github.io/wdd130/images/icons/color/twitter.png" alt="twitter-logo" /></a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
